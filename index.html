@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/styles.css">
@@ -15,27 +15,29 @@
 <body>
     <!--Header-->
     <header class="header">
-        <!--NavBar-->
-        <nav class="navbar">
-            <img src="./image/Logo.svg" alt="Gallery Story & More" class="logo-img">
-            <ul class="nav-box">
-                <li><a href="#about-section" class="nav-link">О нас</a></li>
-                <li><a href="#price-section" class="nav-link">Услуги и цены</a></li>
-                <li><a href="#masters-section" class="nav-link">Мастера</a></li>
-                <li><a href="#footer" class="nav-link">Контакты</a></li>
-            </ul>
-            <div class="btn-box">
-                <a href="tel:+380441111111" class="phone-link">+38 044 111 11 11</a>
-                <a href="#footer" type="button" class="primary-btn">онлайн-запись</a>
-            </div>
-        </nav>
-        <aside class="slidebar">
+         <aside class="slidebar">
             <div class="social-box">
                 <a href="#" class="social-link">Instagram</a>
                 <a href="#" class="social-link">YouTube</a>
             </div>
         </aside>
-
+        <!--NavBar-->
+        <nav class="navbar">
+            <div class="nav-holder">
+                <img src="./image/Logo.svg" alt="Gallery Story & More" class="logo-img">
+                <ul class="nav-box">
+                    <li><a href="#about-section" class="nav-link">О нас</a></li>
+                    <li><a href="#price-section" class="nav-link">Услуги и цены</a></li>
+                    <li><a href="#masters-section" class="nav-link">Мастера</a></li>
+                    <li><a href="#footer" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+           
+            <div class="btn-box">
+                <a href="tel:+380441111111" class="phone-link">+38 044 111 11 11</a>
+                <a href="#footer" type="button" class="primary-btn">онлайн-запись</a>
+            </div>
+        </nav>
         <div class="slider">
             <div class="slide">
               <span lang="en" class="suptitle-secondary">A hair salon for men in Kyiv</span>
@@ -57,10 +59,10 @@
     <!--Main container-->
     <main class="layout">
         <!--About section-->
-        <section class="section-boxt" id="about-section">
+        <section class="section-box about-section" id="about-section">
             <div class="about-img-box">
-                <img src="./image/img 1.jpg" alt="борода" width="270">
-                <img src="./image/img 2.jpg" alt="голова" width="270">
+                <img src="./image/img 1.jpg" alt="борода">
+                <img src="./image/img 2.jpg" alt="голова">
             </div>
             <div class="description-container">
                 <span class="suptitle-primary">О НАС</span>
@@ -74,7 +76,7 @@
             </div>
         </section>
         <!--Price section-->
-        <section class="section-box" id="price-section">
+        <section class="section-box price-section" id="price-section">
                 <span class="suptitle-secondary">Проведи время в компании лучших мастеров</span>
                 <h2 class="section-title lighten">Услуги и цены</h2>
                 <div class="price-list">
@@ -120,7 +122,7 @@
                 <a href="#footer" type="button" class="primary-btn">онлайн-запись</a>
         </section>
         <!--Why section-->
-        <section class="section-box" id="why-section">
+        <section class="section-box why-section" id="why-section">
                 <div class="number-container">
                     <div class="number-box">
                         <p>600</p>
